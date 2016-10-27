@@ -52,7 +52,7 @@
 #endif
 
 #ifndef CIPHER
-#define CIPHER "aes-256-cbc"
+#define CIPHER "aes-128-cbc"
 #endif
 
 #define CIPHER_DECRYPT 0
@@ -63,7 +63,7 @@
 #define CIPHER_READWRITE_CTX 2
 
 #ifndef PBKDF2_ITER
-#define PBKDF2_ITER 64000
+#define PBKDF2_ITER 4000
 #endif
 
 /* possible flags for cipher_ctx->flags */
